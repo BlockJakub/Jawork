@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\Resources\log-in.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Login</h2>
+    </header>
+    <div class="form-container-login">
+        <div class="container-glass-login">
+            <form action="/action_page.php" method="post">
+                <div class="login-imgcontainer">
+                    <img src="./Ivan%20Vrakac.png" width="80" height="160" alt="avatar" class="login-avatar">
+                </div>
+                <div class="logincontainer">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="usernamer" required>
+
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember">
+                        Remember me
+                    </label>
+
+                </div>
+                <div class="login-container" style="background-color: #f1f1f1;">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="forgot-psw">Forgot<a href="#">password?</a></span>
+                </div>
+        </div>
+    </div>
+
+
+</body> 
+</html>

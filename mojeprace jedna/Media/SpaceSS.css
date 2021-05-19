@@ -1,0 +1,142 @@
+﻿/*Created BY SAMUEL SERVANTES*/
+/*WHAT IS THIS???????*/
+
+
+
+body {
+    margin: 13px;
+    padding: 13px;
+    background-image: url("file:///C:/Users/jacub/Downloads/Sun%20eruption-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    overflow: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+.flex-container {
+    display: block;
+    margin: 17px;
+    padding: 23px;
+    background-image: url(file:///C:/Users/jacub/Downloads/Panets-1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+heading {    
+    font-size: 88px;  
+    font-weight: bold;
+    }
+
+.jumbotron {
+    display: block;
+    margin:113px;
+    padding: 13px;
+    background-image: url(file:///C:/Users/jacub/Downloads/Star-explosion-1.jpg);
+    text-align:center;
+    color: gold;
+    image-radius: 7px;
+    border: 5px solid gold;
+    border-radius: 7px;
+
+}
+
+/*
+
+nav.row {
+    margin:0;
+    border:3px solid yellow;
+    border-radius: 5px 5px;
+    background-image: -webkit-repeating-linear-gradient(coral, gold);
+}
+
+.row {
+
+}
+.row-wrapper {
+    display: inline-block;
+    margin: 3px;
+    padding:3px;     
+    list-style-type: none;
+
+}
+
+ul {
+    
+    display:block;
+    
+}
+li {
+    display: inline-block;
+    float: inherit;
+    width: 116px;
+    height: 69px;
+    border: 6px solid white;
+    border-radius: 25px 25px;
+    background-color: silver;
+    font-family: 'Comic Sans MS';
+    clear:both;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-bar-button {
+    clear: both;
+    width: 111px;
+    text-align: center;
+    background-image: url(file:///C:/Users/jacub/Downloads/stars-3.jpg);
+
+}
+      */
+.col-lg-3 {
+    position: inherit;
+    padding: 4px;
+    
+}
+
+.col-lg-6 {
+    background-image: url(file:///C:/Users/jacub/Downloads/Stars-2.jpg);
+    color: white;
+    
+.col-md-8 {
+    background-color:aqua;
+
+          }
+.col-lg-10 {
+    text-align: right;
+
+}
+.col-lg-6-II {
+    background-image: url(file:///C:/Users/jacub/Downloads/Sun%20eruption-1.jpg);
+}
+.img-main {
+    flex-box: ;
+    }
+h2, h3, h4 {
+    font-family:Consolas;
+    font-size: large;
+    color: gold;
+}
+
+div> .item-1 {
+
+    background-color: pink;
+}
+
+.item-3 {
+    display: inline-block;
+}
+.text-left {
+	text-align: right;
+	font-size: 44px;
+}
+
+footer {
+    display: inline-block;
+}
