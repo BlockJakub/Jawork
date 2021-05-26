@@ -1,0 +1,172 @@
+/* TEA KOZY style */
+
+* {
+  font-family: Arial, "Helvetica", sans-serif;
+  color: seashell;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+img {
+  opacity: 0.9;
+}
+
+header {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  line-height: 50px;
+}
+
+logo {
+  justify-content: main-start;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 10px 0 10px 840px;
+}
+
+li {
+  display: block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  margin: 0 80px 0 80px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+}
+
+.hdr-main {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 300px 0 300px 0;
+  background-color: black;
+  text-align: center;
+  line-height: auto;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+  
+    /*justify-items: space-be;*/
+    width: 1000px;
+    height: 900px;
+    margin: 0 175px 20px 175px;
+    
+}
+
+.tea-month {
+  display: block;
+  flex-direction: column;
+  line-height: 50px;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-tea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  height: auto;
+  
+  
+  }
+
+.item-tea {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 20px 30px 10px;
+}
+
+section {
+  height: 500px;
+  width: 1200px;
+  border: 1px solid purple;
+  margin: 0 80px 0 80px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+footer {
+  height: 50px;
+  margin-top: 120px;
+  margin: 20px;
+}
+
+.loc-hdr {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.hdr {
+  display: flex;
+  justify-content: center;
+}
+
+.container-loc-child {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 100px;
+}
+
+.loc-child {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin: 55px 20px;
+  background-color: black;
+  opacity: 1;
+  line-height: 60px;
+  text-align: center;
+}
+
+.adre {
+  line-height: 50px;
+  justify-items: center;
+  text-align: justify;
+}
+
+#center {
+  align-items: center;
+  margin: 10px;
+}

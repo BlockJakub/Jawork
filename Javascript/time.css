@@ -1,0 +1,18 @@
+/* Style for TIME */
+
+body {
+    background-color: rgba(123, 55, 200, 0.7);
+}
+
+.digital-time {
+position: sticky;
+border: 3px ridge lawngreen;
+}
+
+#demo {
+ background: rgba(12, 12, 88, 0.4);
+ font-family: monospace;
+ font-weight: 600;
+ font-size: 34px;
+
+}
